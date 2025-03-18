@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height:100vh;
+    background-color: #c4e8f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+}
+
+h1{
+    position: absolute;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 10px;
+    font-size: 100px;
+    color: white;
+    text-shadow: 1px 1px 7px #000000;
+}
+
+.container{
+position: absolute;
+bottom: 20vh;
+}
+
+.sprite{
+
+    position: relative;
+    object-fit: contain;
+
+}
+
+.ground{
+    background-color: #8f501d;
+    width:100vw;
+    height: 20vh;
+}
