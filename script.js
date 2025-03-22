@@ -1,0 +1,26 @@
+const animals =[
+    {
+        creature : "Chick", 
+        weight : "44 grams",
+        HighestJump : "2-3 feet",
+        image : "images/chick.png",
+    },
+    {
+        creature : "Rabbit", 
+        weight : "2 to 8 pounds",
+        HighestJump : "170 cm",
+        image : "images/rabbit.png",
+    },
+    {
+        creature: "Frog", 
+        weight : "<1 miligram to 7 lbs ",
+        HighestJump : "21 ft, 5 3/4 in",
+        image : "images/frog.png",
+    },
+    {
+        creature : "Kangaroo", 
+        weight :"40 to 200 pounds",
+        HighestJump : "10 feet",
+        image : "images/kangaroo.png",
+}
+];
