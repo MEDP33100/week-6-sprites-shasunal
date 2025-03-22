@@ -1,33 +1,26 @@
-document.addEventListener("DOMContentLoaded", () => {
-
-fetch("animals.json") //fetchs json file
-.then(response => response.json() ) //convert to json
-.then(data => {
-   Object.keys(data).forEach(id => { //go through each id
-    let img = document.getElementById(id);
-
-    if (img){
-        let {bounceHeight, duration, height, width, x, y} = data[id];
-
-        img.style.width = `${width}px`;
-        img.style.height = `${height}px`;
-        img.style.position = "absolute"; 
-        img.style.left = `${x}px`; 
-        img.style.top = `${y}px`; 
-            
-
-        img.addEventListener("mouseenter" , () => {
-            gsap.to(img, {
-                y : -bounceHeight,
-                duration: duration,
-                yoyo:true,
-                repeat:1
-            });
-        });
-    }
-   });
- 
-    
+const animals =[
+    {
+        creature : "Chick", 
+        weight : "44 grams",
+        HighestJump : "2-3 feet",
+        image : "images/chick.png",
+    },
+    {
+        creature : "Rabbit", 
+        weight : "2 to 8 pounds",
+        HighestJump : "170 cm",
+        image : "images/rabbit.png",
+    },
+    {
+        creature: "Frog", 
+        weight : "<1 miligram to 7 lbs ",
+        HighestJump : "21 ft, 5 3/4 in",
+        image : "images/frog.png",
+    },
+    {
+        creature : "Kangaroo", 
+        weight :"40 to 200 pounds",
+        HighestJump : "10 feet",
+        image : "images/kangaroo.png",
 }
-
-)});
+];

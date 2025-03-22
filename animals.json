@@ -1,31 +1,26 @@
-{
-    "chick":{
-        "bounceHeight":30,
-        "duration":0.2,
-        "height":120,
-        "x": 100,
-        "y":-100
-       
+[
+    {
+        "creature": "Chick",
+        "weight": "44 grams",
+        "HighestJump": "2-3 feet",
+     "image": "images/chick.png"
     },
-    "rabbit":{
-        "bounceHeight":50,
-        "duration":0.5,
-        "height":180,
-        "x": 400,
-        "y":-100
+    {
+        "creature": "Rabbit",
+        "weight": "2 to 8 pounds",
+        "HighestJump": "170 cm",
+     "image": "images/rabbit.png"
     },
-    "frog":{
-        "bounceHeight":70,
-        "duration":0.3,
-        "height":100,
-        "x":700,
-        "y":-90
+    {
+     "creature": "Frog",
+     "weight": "<1 milligram to 7 lbs",
+     "HighestJump": "21 ft, 5 3/4 in",
+     "image": "images/frog.png"
     },
-    "kangaroo":{
-        "bounceHeight":150,
-       "duration":0.5,
-       "height":400,
-       "x": 900,
-       "y":-350
-}
-}
+    {
+     "creature": "Kangaroo",
+     "weight": "40 to 200 pounds",
+     "HighestJump": "10 feet",
+     "image": "images/kangaroo.png"
+    }
+]
